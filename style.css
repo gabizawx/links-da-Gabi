@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: var(--dark-grey);
+    background-color: var(--grey);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@ body {
 }
 
 div {
-    background-color: var(--grey);
+    background-color: var(--dark-grey);
     color: var(--white);
     width: 384px;
     padding: 40px;
@@ -57,4 +57,20 @@ p {
 
 ul, li {
     list-style: none;
+}
+
+div a {
+    display: block;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 16px;
+}
+
+a {
+    color: var(--white);
 }

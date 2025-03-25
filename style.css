@@ -74,3 +74,9 @@ div a {
 a {
     color: var(--white);
 }
+
+div a:hover {
+    background-color: var(--purple);
+    color: var(--grey);
+    transition: 0.7s;
+}
